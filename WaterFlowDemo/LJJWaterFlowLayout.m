@@ -132,7 +132,7 @@
 
 
 /**
- 计算collectionView的可滚动范围，必重新
+ 计算collectionView的可滚动范围，必重写
 
  @return collectionView内容大小
  */

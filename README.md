@@ -69,12 +69,9 @@
 }
 ```
 
-/**
+
 返回所有当前在可视范围内的item的布局属性
 
-@param rect 可视范围
-@return 可视范围内的所有item的布局属性
-*/
 
 ```
 - (NSArray<UICollectionViewLayoutAttributes *> *)layoutAttributesForElementsInRect:(CGRect)rect {
@@ -114,11 +111,7 @@
 
 ```
 
-/**
-计算collectionView的可滚动范围，必重新
-
-@return collectionView内容大小
-*/
+计算collectionView的可滚动范围，必重写
 
 ```
 - (CGSize)collectionViewContentSize {
